@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+</head>
+<body>
+
+        <form action="/Settings" method="POST">
+        <div>
+        {{ errormsg }}
+        </div>
+        <label for="username">Input a new user name</label>
+        <input 
+        type="text" 
+        name="usernameInput" 
+        id="usernameInput"
+        placeholder="Enter new username"
+        required>
+        
+        <button type="submit">Change username</button>
+        </form>
+</body>
+</html>

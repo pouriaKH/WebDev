@@ -1,5 +1,9 @@
 <h1>Register</h1>
+
 <form action="/register" method="POST">
+  <div>
+    {{errormsg}}
+  </div>
   <div>
     <label for="name">Name</label>
     <input type="text" id="name" name="name" required>
@@ -11,6 +15,11 @@
   <div>
     <label for="password">Password</label>
     <input type="password" id="password" name="password" required>
+  </div>
+  <div>
+    <label for="isAdmin">isAdmin?</label>
+  <input type="checkbox" id="isAdmin" name="isAdmin" value="True">
+
   </div>
   <button type="submit">Register</button>
 </form>
