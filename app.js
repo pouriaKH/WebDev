@@ -180,6 +180,7 @@ app.post('/FindUser', (req, res) => {
 			})
 
 		}
+
 	} else if (x == "username") {
 		if (z.includes("@")) {
 			req.flash('user', "Username must not include @");
