@@ -1,0 +1,8 @@
+.Sidebar {
+    width: 200px;
+    height: 98%;
+    background-color: wheat;
+    margin-left: 0px;
+    position: absolute;
+    right: 10px;
+}

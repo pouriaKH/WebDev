@@ -1,5 +1,5 @@
 {
-  "name": "yout",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -18,8 +18,9 @@
     "express": "^4.18.1",
     "express-handlebars": "^5.3.5",
     "express-session": "^1.17.3",
+    "formidable": "^2.0.1",
     "mongoose": "^5.13.14",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-local": "^1.0.0"
   }
 }
